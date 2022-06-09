@@ -9,7 +9,7 @@ const baseRoutes: any = [
     component: () => import("@/view/layout/index.vue")
   }
 ];
-console.log(baseRoutes, "llll");
+console.log(baseRoutes, "lll");
 const router = createRouter({
   history: createWebHashHistory(),
   routes: [...baseRoutes, ...HomeRouter]
